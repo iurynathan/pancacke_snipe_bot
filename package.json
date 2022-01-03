@@ -1,0 +1,20 @@
+{
+  "name": "trading-bot",
+  "version": "1.0.1",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snipe": "node src/bot.js"
+  },
+  "author": "Iury Nathan",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.1.4",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.0",
+    "set-interval-async": "^2.0.3"
+  }
+}
